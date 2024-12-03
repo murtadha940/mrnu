@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة طعام مطعم حضارة</title>
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://i.imgur.com/vt6MvFb.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .menu-header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin-bottom: 20px;
+        }
+
+        .menu-header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .menu-section {
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        .menu-section h2 {
+            border-bottom: 2px solid #ffc107;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ffc107;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .menu-item span {
+            font-size: 1.2rem;
+        }
+
+        .menu-item .price {
+            color: #ffc107;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-header">
+        <h1>قائمة طعام مطعم حضارة</h1>
+    </div>
+
+    <!-- الأطباق الرئيسية -->
+    <div class="menu-section">
+        <h2>الأطباق الرئيسية</h2>
+        <div class="menu-item">
+            <span>مندي دجاج</span>
+            <span class="price">12,000 دينار</span>
+        </div>
+        <div class="menu-item">
+            <span>مظبي لحم</span>
+            <span class="price">18,000 دينار</span>
+        </div>
+        <div class="menu-item">
+            <span>زربيان</span>
+            <span class="price">15,000 دينار</span>
+        </div>
+    </div>
+
+    <!-- المقبلات -->
+    <div class="menu-section">
+        <h2>المقبلات</h2>
+        <div class="menu-item">
+            <span>شوربة عدس</span>
+            <span class="price">3,000 دينار</span>
+        </div>
+        <div class="menu-item">
+            <span>سلطة خضراء</span>
+            <span class="price">2,500 دينار</span>
+        </div>
+    </div>
+
+    <!-- العصائر -->
+    <div class="menu-section">
+        <h2>العصائر</h2>
+        <div class="menu-item">
+            <span>عصير برتقال</span>
+            <span class="price">2,500 دينار</span>
+        </div>
+        <div class="menu-item">
+            <span>كوكتيل فواكه</span>
+            <span class="price">3,500 دينار</span>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 مطعم حضارة | جميع الحقوق محفوظة
+    </footer>
+</body>
+</html>
